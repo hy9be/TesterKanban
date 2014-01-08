@@ -1,0 +1,85 @@
+body {
+    font-family: "Segoe UI", Helvetica, Verdana;
+    min-width: 520px;
+    font-size: 75%;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.header {
+    margin-top: 1em;
+    font-weight: 400;
+}
+
+.column-container {
+    width: 16%;
+    float: left;
+}
+
+.column {    
+    padding-bottom: 100px;
+    background-color: transparent !important;
+}
+
+.column-header {
+    padding: 0 .5em;
+}
+
+.portlet {
+    margin: 0 1em 1em 0;
+}
+
+.portlet-header {
+    margin: .3em;
+    padding: .2em .3em .3em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.portlet-header .ui-icon {
+    float: right;
+}
+
+.portlet-content {
+    padding: .4em .5em 1em;
+}
+
+.ui-sortable-placeholder {
+    border: 1px dotted #000;
+    visibility: visible !important;
+    height: 50px !important;
+}
+
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+
+footer {
+    clear: both;
+}
+
+.class1 {
+    background-color: #3498db;
+}
+
+.class2 {
+    background-color: #8e44ad;
+}
+
+.class3 {
+    background-color: #16a085;
+}
+
+.class4 {
+    background-color: #e67e22;
+}
+
+.class5 {
+    background-color: #e74c3c;
+}
+
+.class6 {
+    background-color: #95a5a6;
+}

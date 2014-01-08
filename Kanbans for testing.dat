@@ -1,0 +1,84 @@
+In columns to do:
+
+        <div class="column-container">
+            <div class="column-header">
+                <h2 class="header">HTML5 VI</h2>
+            </div>            
+            <div class="column class1">            
+                <div class="portlet">
+                    <div class="portlet-header class1">
+                        Feeds
+                    </div>
+        
+                    <div class="portlet-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                    </div>
+                </div>
+        
+                <div class="portlet">
+                    <div class="portlet-header class1">
+                        News
+                    </div>
+        
+                    <div class="portlet-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="column class2">
+            <div class="column-header">
+                <h2 class="header">MAD</h2>
+            </div>
+            <div class="portlet">
+                <div class="portlet-header class2">
+                    Shopping
+                </div>
+    
+                <div class="portlet-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                </div>
+            </div>
+        </div>
+    
+        <div class="column  class3">
+            <div class="column-header">
+                <h2 class="header">Research</h2>
+            </div>
+            <div class="portlet">
+                <div class="portlet-header class3">
+                    Links
+                </div>
+    
+                <div class="portlet-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                </div>
+            </div>
+    
+            <div class="portlet">
+                <div class="portlet-header class3">
+                    Images
+                </div>
+    
+                <div class="portlet-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="column-header">
+                <h2 class="header">Others</h2>
+            </div>
+            <div class="portlet">
+                <div class="portlet-header class4">
+                    Links
+                </div>
+    
+                <div class="portlet-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                </div>
+            </div>
+        </div>
