@@ -10,6 +10,7 @@
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="js/constructDataProvider.js"></script>
     <script src="js/initSortable.js"></script>
+    <script src="js/initEditingArea.js"></script>
 </head>
 
 <body>
@@ -24,6 +25,25 @@
     </div>
     
     <div class="columns-done">
+    </div>
+    
+    <div id="editing-area" title="Create new task">        
+        <form>
+        <fieldset>
+            <p>
+            <label for="project-name">Projet</label>
+            <input type="text" id="project-name" class="text ui-widget-content ui-corner-all">
+            </p>
+            <p>
+            <label for="task-name">Task</label>
+            <input type="text" id="task-name" class="text ui-widget-content ui-corner-all">
+            </p>
+            <p>
+            <label for="task-details">Details</label>
+            <input type="text" id="task-details" class="text ui-widget-content ui-corner-all">
+            </p>
+        </fieldset>
+        </form>
     </div>
     
     <footer>

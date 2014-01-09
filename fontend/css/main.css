@@ -13,6 +13,10 @@ h1 {
     font-weight: 400;
 }
 
+.h2 {
+    font-size: 1.5em;
+}
+
 .column-container {
     width: 16%;
     float: left;
@@ -24,7 +28,8 @@ h1 {
 }
 
 .column-header {
-    padding: 0 .5em;
+    padding: 0 0 0 0.2em;
+    margin: 2em 0 1.5em;
 }
 
 .portlet {
@@ -56,8 +61,20 @@ h1 {
     visibility: hidden;
 }
 
+.ui-dialog .ui-dialog-titlebar-close {
+  display: none;
+}
+
 footer {
     clear: both;
+}
+
+.add-button {
+    cursor:pointer;
+    display:inline-block;
+    margin-left: 0.5em;
+    vertical-align: -9%;
+    border: 1px solid #bdc3c7;
 }
 
 .class1 {
@@ -76,10 +93,10 @@ footer {
     background-color: #e67e22;
 }
 
-.class5 {
+.class-doing {
     background-color: #e74c3c;
 }
 
-.class6 {
+.class-done {
     background-color: #95a5a6;
 }
