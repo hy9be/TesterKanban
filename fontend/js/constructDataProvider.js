@@ -21,10 +21,9 @@ function getColumnHTML(column_id, column_name, portlets_data) {
 $(function() {
     
     var column_data = [ 
-        {"column_id": "class1", "column_name": "HTML5 VI"}, 
-        {"column_id": "class2", "column_name": "MAD"}, 
-        {"column_id": "class3", "column_name": "Research"},
-        {"column_id": "class4", "column_name": "Others"}
+        {"column_id": "class1", "column_name": "Testing"}, 
+        {"column_id": "class2", "column_name": "Research"}, 
+        {"column_id": "class3", "column_name": "Others"}
     ];
     
     var portlets_demo_data = [
@@ -44,6 +43,8 @@ $(function() {
         $("#editing-area #project-name").val($(this).parents("span.h2").text());
     });    
     
+    // For pause
+    $('.columns-pause').append(getColumnHTML('class-pause', 'Pause', portlets_demo_data));
     // For doing
     $('.columns-doing').append(getColumnHTML('class-doing', 'Doing', portlets_demo_data));
     // For done
