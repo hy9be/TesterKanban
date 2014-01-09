@@ -21,9 +21,11 @@ function getColumnHTML(column_id, column_name, portlets_data) {
 $(function() {
     
     var column_data = [ 
-        {"column_id": "class1", "column_name": "Testing"}, 
-        {"column_id": "class2", "column_name": "Research"}, 
-        {"column_id": "class3", "column_name": "Others"}
+        {"column_id": "class1", "column_name": "Pending (Assigned)"}, 
+        {"column_id": "class2", "column_name": "Setup"}, 
+        {"column_id": "class3", "column_name": "Analysis"},
+        {"column_id": "class3", "column_name": "Test"},
+        {"column_id": "class3", "column_name": "Wrap-up"},
     ];
     
     var portlets_demo_data = [
